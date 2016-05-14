@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	margin: 0;
+	position: fixed;
+	z-index: 2;
+}
+
+header {
+	height: 200px;
+	position: fixed;
+	top: 64px;
+	width: 100%;
+	z-index: -1;
+}
+
+section {
+	position: relative;
+	top: 150px;
+	z-index: 1;
+
+}
