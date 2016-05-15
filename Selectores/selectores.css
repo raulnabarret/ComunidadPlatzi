@@ -1,0 +1,116 @@
+* {
+	padding: 0;
+}
+
+/*Selector de Clase*/
+.clase {
+	background: #333;
+}
+
+/*Selector de Id*/
+#myId {
+	 background: #fff;
+}
+
+/*Selector de hijo*/
+div > p {
+	color: #888;
+}
+
+/*Selector de hermanos/adyacente*/
+
+h1 + h2 {
+	color: #345;
+}
+
+/*Selector general de hermanos*/
+
+h1 ~h2 {
+	color: #456;
+}
+
+/*Selector de Atributo*/
+
+p[atributo] {
+	font-weight: 700;
+}
+/*Selector de Atributo y Valor*/
+/*<p atributo="valor">Un párrafo</p>*/
+p[atributo~="valor"]{
+	font-size: 2em;
+}
+
+/*Selector de Atributo y Valor*/
+p[atributo^="valor"]{
+	font-size: 2em;
+}
+
+/*Selector de Atributo y Valor*/
+p[atributo$="valor"]{
+	font-size: 2em;
+}
+
+/*Selector de Atributo y Valor*/
+p[atributo*="valor"]{
+	font-size: 2em;
+}
+
+
+/*PSEUDOSELECTORES*/
+
+/*Pseudo-Elementos*/
+/*after*/
+h1::before{
+	content: "¡";
+	color: #897;
+}
+
+h1::after{
+	content: "!";
+	color: #897;
+}
+
+h1::first-letter{
+	font-size: 2em;
+}
+
+p::first-line{
+	color: red;
+}
+
+p::-moz-selection{
+	background: #555;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+p::selection{
+	background: #555;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+/*Pseudo-Clases*/
+.checkbox:checked{
+
+}
+
+p:empty{
+
+}
+
+input:enabled{
+
+}
+
+a:hover{
+
+}
+
+input:valid{
+
+}
+
+input:invalid{
+	
+}
