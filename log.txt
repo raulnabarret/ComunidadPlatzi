@@ -1,0 +1,23 @@
+commit c27ed9295ac8ec810ec32d3248864c134021c150
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun May 15 13:45:40 2016 -0500
+
+    Clase de Selectores y Pseudoselectores de CSS
+
+commit 0bfc5e719ddf98222d143cbcca71c4ebf8a7007b
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sat May 14 18:07:44 2016 -0500
+
+    Creación de primer sitio usando Materialize
+
+commit 8b7eb3772cbe49dc4c0e522272a19e0733b8068b
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri May 13 23:41:07 2016 -0500
+
+    Configurando el framework en el proyecto
+
+commit 94587d633a072399eacac39a311d710710bdb29a
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Tue May 10 09:22:03 2016 -0500
+
+    Index para crear un sitio con Materialize
