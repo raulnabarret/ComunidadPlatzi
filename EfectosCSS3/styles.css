@@ -1,0 +1,90 @@
+body{
+	background-color: #F9F9F9;
+	font-size: 16px;
+}
+
+h1, h2{
+	margin: 20px 20px;
+	text-align: center;
+}
+
+article #blur-container{
+	text-align: center;
+}
+
+article #blur-container .blur{
+	width: 250px;
+  -webkit-filter: blur(2px);
+}
+
+article #bright-container{
+	text-align: center;
+}
+
+article #bright-container .bright{
+	width: 250px;
+  -webkit-filter: brightness(2);
+}
+
+article #contrast-container{
+	text-align: center;
+}
+
+article #contrast-container .contrast{
+	width: 250px;
+  -webkit-filter: contrast(5);
+}
+
+article #grayscale-container{
+	text-align: center;
+}
+
+article #grayscale-container .grayscale{
+	width: 250px;
+  -webkit-filter: grayscale(70%);
+}
+
+article #huerotate-container{
+	text-align: center;
+}
+
+article #huerotate-container .huerotate{
+	width: 250px;
+  -webkit-filter: hue-rotate(90deg);
+}
+
+article #invert-container{
+	text-align: center;
+}
+
+article #invert-container .invert{
+	width: 250px;
+  -webkit-filter: invert(100%);
+}
+
+article #opacity-container{
+	text-align: center;
+}
+
+article #opacity-container .opacity{
+	width: 250px;
+  -webkit-filter: opacity(25%);
+}
+
+article #saturate-container{
+	text-align: center;
+}
+
+article #saturate-container .saturate{
+	width: 250px;
+  -webkit-filter: saturate(10);
+}
+
+article #sepia-container{
+	text-align: center;
+}
+
+article #sepia-container .sepia{
+	width: 250px;
+  -webkit-filter: sepia(100%);
+}
