@@ -23,7 +23,7 @@ article #bright-container{
 
 article #bright-container .bright{
 	width: 250px;
-  -webkit-filter: brightness(2);
+  	-webkit-filter: brightness(2);
 }
 
 article #contrast-container{
@@ -32,7 +32,7 @@ article #contrast-container{
 
 article #contrast-container .contrast{
 	width: 250px;
-  -webkit-filter: contrast(5);
+  	-webkit-filter: contrast(5);
 }
 
 article #grayscale-container{
@@ -41,7 +41,7 @@ article #grayscale-container{
 
 article #grayscale-container .grayscale{
 	width: 250px;
-  -webkit-filter: grayscale(70%);
+ 	-webkit-filter: grayscale(70%);
 }
 
 article #huerotate-container{
@@ -50,7 +50,7 @@ article #huerotate-container{
 
 article #huerotate-container .huerotate{
 	width: 250px;
-  -webkit-filter: hue-rotate(90deg);
+ 	-webkit-filter: hue-rotate(90deg);
 }
 
 article #invert-container{
@@ -59,7 +59,7 @@ article #invert-container{
 
 article #invert-container .invert{
 	width: 250px;
-  -webkit-filter: invert(100%);
+ 	-webkit-filter: invert(100%);
 }
 
 article #opacity-container{
@@ -68,7 +68,7 @@ article #opacity-container{
 
 article #opacity-container .opacity{
 	width: 250px;
-  -webkit-filter: opacity(25%);
+ 	-webkit-filter: opacity(25%);
 }
 
 article #saturate-container{
@@ -77,7 +77,7 @@ article #saturate-container{
 
 article #saturate-container .saturate{
 	width: 250px;
-  -webkit-filter: saturate(10);
+ 	-webkit-filter: saturate(10);
 }
 
 article #sepia-container{
@@ -86,5 +86,28 @@ article #sepia-container{
 
 article #sepia-container .sepia{
 	width: 250px;
-  -webkit-filter: sepia(100%);
+ 	-webkit-filter: sepia(100%);
+}
+
+article #combinacion-container{
+	text-align: center;
+}
+
+article #combinacion-container .combinacion{
+	width: 250px;
+ 	-webkit-filter: blur(2px) grayscale(100%);
+ 	-webkit-transition: all 2s ease;
+}
+
+article #combinacion-container .combinacion:hover{
+	width: 250px;
+ 	-webkit-filter: blur(2px) grayscale(10%) saturate(4);
+}
+
+article #video-container {
+	text-align: center;
+}
+
+article #video-container .video-filter {
+	-webkit-filter: grayscale(90%);
 }
