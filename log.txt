@@ -1,3 +1,39 @@
+commit 453c3b2dcf20f7f13b3f652bb66bb5e784507059
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon May 23 23:20:27 2016 -0500
+
+    Chat usando Express y Node.js
+
+commit 5319473b37ad8f3b05c2fc510ab032b733a64827
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri May 20 11:55:27 2016 -0500
+
+    Login a través de Facebook y Twitter usando node.js
+
+commit fb1649cae74e71e604ef40e62b1f44389d495860
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Thu May 19 22:35:14 2016 -0500
+
+    Combinación de efectos en imágenes y efectos en vídeos con CSS3
+
+commit 6a505edc18beef76ad4d420e5eafc94cd0c8b645
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed May 18 16:08:36 2016 -0500
+
+    Estilos para imágenes usando CSS3
+
+commit 7580468eaff871841b88509fd83e27e379c911c5
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed May 18 11:38:01 2016 -0500
+
+    Clase para agregar efectos a imágenes con CSS3
+
+commit 971046100ae26906b4b0b5eda7d017d40b518c8a
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon May 16 22:26:13 2016 -0500
+
+    Bitácora de cambios al 16 de mayo de 2016
+
 commit c27ed9295ac8ec810ec32d3248864c134021c150
 Author: raulnabarret <raulnabarret@gmail.com>
 Date:   Sun May 15 13:45:40 2016 -0500
